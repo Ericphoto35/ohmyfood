@@ -1,5 +1,242 @@
-h1 {
-  color: green;
+/****** General ***********/
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 767.98px;
+  box-sizing: border-box;
+}
+
+/******* header **********/
+.logo {
+  display: flex;
+  width: 162px;
+  margin: auto;
+}
+
+.header__location {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #EAEAEA;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
+  justify-content: center;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+}
+.header__location i {
+  margin-right: 17px;
+}
+.header__location p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header__logo {
+  height: 63px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/*******Section Hero **********/
+.hero {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  background: #F3F3F3;
+  margin-top: 4px;
+}
+.hero h1 {
+  width: 275px;
+  height: 68px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: auto;
+  padding-top: 39px;
+}
+.hero p {
+  line-height: 21.09px;
+  text-align: center;
+  width: 315px;
+  height: 46px;
+  margin: auto;
+}
+.hero button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2509803922);
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin: 27px auto 57px auto;
+}
+
+/********* Fonctionnement *******/
+.choice {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.choice h2 {
+  margin: 48px auto 26px 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+}
+.choice button {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 72.38px;
+  border-radius: 20px;
+  border: none;
+  background: #F6F6F6;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1490196078);
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  margin: 0 auto 25px auto;
+  position: relative;
+}
+.choice button i {
+  color: #7E7E7E;
+  position: absolute;
+  left: 40px;
+}
+.choice button .button__number {
+  color: white;
+  background: #9356DC;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: -13px;
+}
+
+/******** Restaurants **********/
+.restaurants {
+  background: #F6F6F6;
+  padding: 54px 20px 66px 20px;
+}
+.restaurants h2 {
+  margin-bottom: 20px;
+}
+
+.restaurants__cards {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.restaurants__cards .restaurants__card {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  height: 251px;
+}
+.card img {
+  object-fit: cover;
+  height: 174px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card .card-content1 {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 16px 25px 12px 13px;
+}
+.card i {
+  font-size: 21px;
+  height: 22px;
+  font-weight: 100;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.card-content p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 19.92px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/********* Footer **********/
+footer {
+  box-sizing: border-box;
+  background: #353535;
+  color: white;
+  padding-left: 25px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+footer .footer-logo {
+  font-family: Shrikhand;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 26.24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 137px;
+  height: 27px;
+  margin-bottom: 16px;
+}
+footer p {
+  margin-bottom: 7px;
+}
+footer i {
+  margin-right: 10px;
+  width: 12px;
+  height: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
