@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /****** General ***********/
 * {
   font-family: "Roboto", sans-serif;
@@ -95,6 +96,12 @@ body {
   border: none;
   color: white;
   margin: 27px auto 57px auto;
+  transition: all 0.2s ease-in-out;
+}
+.hero button:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.3764705882);
+  cursor: pointer;
 }
 
 /********* Fonctionnement *******/
@@ -188,7 +195,52 @@ body {
 .card i {
   font-size: 21px;
   height: 22px;
-  font-weight: 100;
+}
+
+/* Conteneur pour les icônes de cœur */
+.heart-container {
+  position: relative;
+  width: 24px; /* Largeur de l'icône */
+  height: 24px; /* Hauteur de l'icône */
+}
+
+/* Style de base pour les icônes de cœur */
+.heart-empty,
+.heart-full {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Cœur vide visible par défaut */
+.heart-empty {
+  color: black; /* Couleur grise pour le cœur vide */
+  opacity: 1; /* Visible */
+}
+
+/* Cœur plein caché par défaut */
+.heart-full {
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); /* Dégradé rose/violet */
+  -webkit-background-clip: text; /* Applique le dégradé au texte/icône */
+  background-clip: text;
+  color: transparent; /* Rend la couleur transparente pour voir le dégradé */
+  opacity: 0; /* Caché */
+}
+
+/* Au survol, le cœur vide disparaît et le cœur plein apparaît */
+.restaurants__card:hover .heart-empty {
+  opacity: 0; /* Caché */
+}
+
+.restaurants__card:hover .heart-full {
+  opacity: 1; /* Visible */
+  transform: scale(1.2); /* Agrandir légèrement le cœur plein */
+}
+
+.restaurants__card:hover .fa-heart-transition {
+  transform: scale(1.2); /* Agrandir légèrement le cœur au survol */
 }
 
 .card-content h3 {
