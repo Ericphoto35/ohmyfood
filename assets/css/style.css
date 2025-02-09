@@ -291,4 +291,68 @@ footer i {
   height: 13px;
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 767.98px) {
+  .main-container {
+    max-width: 100%;
+  }
+  .header__logo, .header__location {
+    box-shadow: 0 0 0 0;
+  }
+  .hero {
+    margin-top: 0;
+  }
+  .hero h1 {
+    width: 100%;
+    font-weight: 700;
+    height: 47px;
+    font-size: 40px;
+    line-height: 46.88px;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 30px;
+  }
+  .hero p {
+    width: 535px;
+    height: 47px;
+    margin-top: 18px;
+    align-content: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .choice h2 {
+    margin: 50px auto 25px 12.5%;
+  }
+  h2 {
+    margin: 30px auto 28px auto;
+  }
+  .choice__container {
+    display: flex;
+    margin-left: 12.5%;
+  }
+  .choice button {
+    width: 335px;
+    margin: 0 24px 50px 0;
+  }
+  .restaurants {
+    padding: 30px 12.5% 30px 12.5%;
+  }
+  .restaurants__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .restaurants__card {
+    width: 45.5%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
