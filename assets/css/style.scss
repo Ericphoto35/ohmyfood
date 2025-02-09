@@ -197,14 +197,14 @@ body {
     height: 22px;
   }
 }
-/* Conteneur pour les icônes de cœur */
+
 .heart-container {
   position: relative;
-  width: 24px; /* Largeur de l'icône */
-  height: 24px; /* Hauteur de l'icône */
+  width: 24px; 
+  height: 24px; 
 }
 
-/* Style de base pour les icônes de cœur */
+
 .heart-empty,
 .heart-full {
   font-size: 24px;
@@ -214,32 +214,32 @@ body {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Cœur vide visible par défaut */
+
 .heart-empty {
-  color: black; /* Couleur grise pour le cœur vide */
-  opacity: 1; /* Visible */
+  color: black; 
+  opacity: 1; 
 }
 
-/* Cœur plein caché par défaut */
+
 .heart-full {
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); /* Dégradé rose/violet */
-  -webkit-background-clip: text; /* Applique le dégradé au texte/icône */
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); 
+  -webkit-background-clip: text; 
   background-clip: text;
-  color: transparent; /* Rend la couleur transparente pour voir le dégradé */
-  opacity: 0; /* Caché */
+  color: transparent;
+  opacity: 0;
 }
 
-/* Au survol, le cœur vide disparaît et le cœur plein apparaît */
+
 .restaurants__card:hover .heart-empty {
-  opacity: 0; /* Caché */
+  opacity: 0; 
 }
 
 .restaurants__card:hover .heart-full {
-  opacity: 1; /* Visible */
-  transform: scale(1.2); /* Agrandir légèrement le cœur plein */
+  opacity: 1; 
+  transform: scale(1.2); 
 }
 .restaurants__card:hover .fa-heart-transition {
-  transform: scale(1.2); /* Agrandir légèrement le cœur au survol */
+  transform: scale(1.2); 
 }
 
 .card-content {
@@ -357,7 +357,20 @@ footer a {
       width: 45.5%;
 
     }
+    .footer-nav {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 57px 50px 30px auto;
+    }
+    .footer-nav__links {
+      display: flex;
+      margin-right: 70px;
+      gap: 30px;
+    }
+
+    
 }
+
 
 
 
