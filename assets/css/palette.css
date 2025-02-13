@@ -105,4 +105,65 @@ header {
   background: white;
   border-radius: 15px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.restaurants .restaurants__button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2509803922);
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin: 27px auto 57px auto;
+  transition: all 0.2s ease-in-out;
+}
+.restaurants .restaurants__button:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.3764705882);
+  cursor: pointer;
+}
+.restaurants .restaurants__button__container {
+  display: flex;
+}
+
+/********** Footer **********/
+footer {
+  box-sizing: border-box;
+  background: #353535;
+  color: white;
+  padding-left: 25px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-top: -32px;
+}
+footer .footer-logo {
+  font-family: Shrikhand;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 26.24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 137px;
+  height: 27px;
+  margin-bottom: 16px;
+}
+footer p {
+  margin-bottom: 7px;
+}
+footer i {
+  margin-right: 10px;
+  width: 12px;
+  height: 13px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=palette.css.map */
