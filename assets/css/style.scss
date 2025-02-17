@@ -138,8 +138,11 @@ body {
     position: relative;
       & i {
         color: #7E7E7E;
-        position: absolute;
-        left: 40px;
+        padding-right: 30px;
+        text-align: left;
+      }
+      & i:hover {
+        color: #9356DC;
       }
       .button__number {
         color: white;
@@ -184,6 +187,7 @@ body {
     width: 100%;;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: relative;
   }
   .card-content1 {
     display: flex;
@@ -195,6 +199,25 @@ body {
   i {
     font-size: 21px;
     height: 22px;
+  }
+  .img__p{
+    width: 80px;
+    height: 29px;
+    border-radius: 2px;
+    background: #99E2D0;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    color: #008766;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 13px;
+    top: 13px;
   }
 }
 
@@ -230,11 +253,11 @@ body {
 }
 
 
-.restaurants__card:hover .heart-empty {
+.heart-empty:hover {
   opacity: 0; 
 }
 
-.restaurants__card:hover .heart-full {
+.heart-full:hover {
   opacity: 1; 
   transform: scale(1.2); 
 }
@@ -337,11 +360,12 @@ footer a {
     }
     .choice__container {
       display: flex;
-      margin-left: 12.5%;
+      justify-content: space-between;
+      padding: 0 12.5%;
     }
     .choice button {
-      width: 335px;
       margin: 0 24px 50px 0;
+      width: 40%;
 
     }
     .restaurants {

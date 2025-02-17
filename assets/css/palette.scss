@@ -129,6 +129,35 @@ header {
     display: flex;
   }
 }
+.img__price {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 15.04px;
+  line-height: 17.63px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.section {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.entrees {
+    animation: fadeIn 1s forwards 0s
+}
+.plats {
+  
+    animation: fadeIn 1s forwards 1s;
+}
+.desserts {
+  
+  animation: fadeIn 1s forwards 2s;
+}
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
 
 /********** Footer **********/
 footer {
