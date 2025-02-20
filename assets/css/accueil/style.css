@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  background: #F3F3F3;
+  background: #F6F6F6;
   margin-top: 4px;
 }
 .hero h1 {
@@ -96,7 +96,7 @@ body {
   height: 50px;
   border-radius: 25px;
   border: none;
-  color: white;
+  color: #FFFFFF;
   margin: 27px auto 57px auto;
   transition: all 0.2s ease-in-out;
 }
@@ -216,7 +216,7 @@ body {
 }
 body {
   margin: 0;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /********* Fonctionnement *******/
@@ -228,7 +228,7 @@ body {
 }
 .choice h2 {
   margin: 48px auto 26px 20px;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 28.13px;
   text-align: left;
@@ -245,7 +245,7 @@ body {
   background: #F6F6F6;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1490196078);
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 18.75px;
   margin: 0 auto 25px auto;
@@ -260,7 +260,7 @@ body {
   color: #9356DC;
 }
 .choice button .button__number {
-  color: white;
+  color: #FFFFFF;
   background: #9356DC;
   border-radius: 50%;
   width: 24px;
@@ -314,7 +314,7 @@ body {
   margin: 16px 25px 12px 13px;
 }
 .card i {
-  font-size: 21px;
+  font-size: 1.31rem;
   height: 22px;
 }
 .card .img__p {
@@ -323,9 +323,8 @@ body {
   border-radius: 2px;
   background: #99E2D0;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 16.41px;
   text-align: center;
   color: #008766;
@@ -379,7 +378,7 @@ body {
 }
 
 .card-content h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 21.09px;
   text-align: left;
@@ -388,7 +387,7 @@ body {
           text-decoration-skip-ink: none;
 }
 .card-content p {
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 300;
   line-height: 19.92px;
   text-align: left;
@@ -401,14 +400,14 @@ body {
 footer {
   box-sizing: border-box;
   background: #353535;
-  color: white;
+  color: #FFFFFF;
   padding-left: 25px;
   padding-top: 22px;
   padding-bottom: 22px;
 }
 footer .footer-logo {
   font-family: Shrikhand;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: italic;
   font-weight: 900;
   line-height: 26.24px;
@@ -431,7 +430,7 @@ footer i {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (min-width: 767.98px) {
@@ -448,7 +447,7 @@ footer a {
     width: 100%;
     font-weight: 700;
     height: 47px;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 46.88px;
     letter-spacing: 0;
     text-align: center;
@@ -461,7 +460,7 @@ footer a {
     margin-top: 18px;
     align-content: center;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 21.09px;
     letter-spacing: 0;
     text-align: center;
