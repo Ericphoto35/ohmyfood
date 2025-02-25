@@ -1,0 +1,41 @@
+.heart-container {
+    position: relative;
+    width: 24px; 
+    height: 24px; 
+  }
+  
+  
+  .heart-empty,
+  .heart-full {
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  
+  .heart-empty {
+    color: black; 
+    opacity: 1; 
+  }
+  
+  
+  .heart-full {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+  }
+  
+  
+  .heart-empty:hover {
+    opacity: 0; 
+  }
+  
+  .heart-full:hover {
+    opacity: 1; 
+  }
+  
+  
