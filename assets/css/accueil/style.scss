@@ -1,7 +1,7 @@
 /****** General ***********/
-@import 'color';
-@import 'button';
-@import 'heart';
+@import "../color";
+@import "../button";
+@import "../heart";
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -46,9 +46,6 @@ body {
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
     }
-    & button {
-      @include button-style;
-    }
 }
 .header__logo {
   height: 63px;
@@ -87,6 +84,9 @@ body {
     width: 315px;
     height: 46px;
     margin: auto;
+  }
+  button {
+    @include button-style;
   }
 
 }
@@ -324,7 +324,6 @@ body {
   }
 }
 
-@include heart;
 
 .card-content {
   h3 {
