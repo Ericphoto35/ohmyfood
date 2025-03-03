@@ -176,7 +176,7 @@ header {
   transition: width 0.3s ease;
   }
   .meal:hover .meal__content {
-  width: calc(100% - 149px); /* Account for visible check icon on hover */
+  width: calc(100% - 149px); 
   }
   .meal:hover .meal__check {
     right: 0;
